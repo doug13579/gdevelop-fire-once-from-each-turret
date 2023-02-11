@@ -129,7 +129,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite2.png\",\"extension\":\".png\"}",
         "name": "assets\\NewSprite2.png",
         "smoothed": true,
         "userAdded": false
@@ -265,8 +265,8 @@
           "name": "RayCaster",
           "persistentUuid": "c1ef88bf-3234-4b05-b8f3-24707f815483",
           "width": 0,
-          "x": 1052,
-          "y": 45,
+          "x": 1089,
+          "y": 56,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -312,14 +312,14 @@
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 19.82682619647355,
-                        "y": 31.517002518891687
+                        "x": 20.794080604534003,
+                        "y": 32.846977329974806
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 20.068639798488665,
-                        "y": 31.275188916876573
+                        "x": 20.794080604534003,
+                        "y": 33.209697732997476
                       },
                       "customCollisionMask": [
                         [
@@ -403,14 +403,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 5.801637279596977,
-                        "y": 31.03337531486146
+                        "x": 8.94521410579345,
+                        "y": 31.637909319899244
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 5.801637279596977,
-                        "y": 31.03337531486146
+                        "x": 8.340680100755668,
+                        "y": 32.000629722921914
                       },
                       "customCollisionMask": []
                     }
@@ -705,11 +705,11 @@
                 },
                 {
                   "type": {
-                    "value": "AddForceAL"
+                    "value": "AddForceVers"
                   },
                   "parameters": [
                     "Fireball",
-                    "turret.Angle()",
+                    "Enemy",
                     "500",
                     "1"
                   ]
